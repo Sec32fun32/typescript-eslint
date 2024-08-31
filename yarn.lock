@@ -9296,6 +9296,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"enhanced-resolve@npm:^5.17.1":
+  version: 5.17.1
+  resolution: "enhanced-resolve@npm:5.17.1"
+  dependencies:
+    graceful-fs: ^4.2.4
+    tapable: ^2.2.0
+  checksum: 4bc38cf1cea96456f97503db7280394177d1bc46f8f87c267297d04f795ac5efa81e48115a2f5b6273c781027b5b6bfc5f62b54df629e4d25fa7001a86624f59
+  languageName: node
+  linkType: hard
+
 "enquirer@npm:~2.3.6":
   version: 2.3.6
   resolution: "enquirer@npm:2.3.6"
@@ -20119,7 +20129,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.88.1, webpack@npm:^5.91.0":
+"webpack@npm:^5.88.1":
   version: 5.92.0
   resolution: "webpack@npm:5.92.0"
   dependencies:
@@ -20153,6 +20163,42 @@ __metadata:
   bin:
     webpack: bin/webpack.js
   checksum: b020102549d2bdbc59902003140808601a4f85800c3efcb8292d4239a71a44786d0b4e2412cfa840a75c2e60276e7e55ea3b77b4e1850a915024cab2a57e90ef
+  languageName: node
+  linkType: hard
+
+"webpack@npm:^5.94.0":
+  version: 5.94.0
+  resolution: "webpack@npm:5.94.0"
+  dependencies:
+    "@types/estree": ^1.0.5
+    "@webassemblyjs/ast": ^1.12.1
+    "@webassemblyjs/wasm-edit": ^1.12.1
+    "@webassemblyjs/wasm-parser": ^1.12.1
+    acorn: ^8.7.1
+    acorn-import-attributes: ^1.9.5
+    browserslist: ^4.21.10
+    chrome-trace-event: ^1.0.2
+    enhanced-resolve: ^5.17.1
+    es-module-lexer: ^1.2.1
+    eslint-scope: 5.1.1
+    events: ^3.2.0
+    glob-to-regexp: ^0.4.1
+    graceful-fs: ^4.2.11
+    json-parse-even-better-errors: ^2.3.1
+    loader-runner: ^4.2.0
+    mime-types: ^2.1.27
+    neo-async: ^2.6.2
+    schema-utils: ^3.2.0
+    tapable: ^2.1.1
+    terser-webpack-plugin: ^5.3.10
+    watchpack: ^2.4.1
+    webpack-sources: ^3.2.3
+  peerDependenciesMeta:
+    webpack-cli:
+      optional: true
+  bin:
+    webpack: bin/webpack.js
+  checksum: 6a3d667be304a69cd6dcb8d676bc29f47642c0d389af514cfcd646eaaa809961bc6989fc4b2621a717dfc461130f29c6e20006d62a32e012dafaa9517813a4e6
   languageName: node
   linkType: hard
 
@@ -20221,7 +20267,7 @@ __metadata:
     typescript: "*"
     unified: ^11.0.4
     vfile: ^6.0.1
-    webpack: ^5.91.0
+    webpack: ^5.94.0
   languageName: unknown
   linkType: soft
 
