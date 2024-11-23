@@ -16,9 +16,9 @@
   "dependencies": {
     "@prettier/sync": "^0.5.1",
     "@typescript-eslint/rule-tester": "7.16.1",
-    "@typescript-eslint/scope-manager": "7.16.1",
-    "@typescript-eslint/type-utils": "7.16.1",
-    "@typescript-eslint/utils": "7.16.1",
+    "@typescript-eslint/scope-manager": "3.5.0",
+    "@typescript-eslint/type-utils": "5.9.0",
+    "@typescript-eslint/utils": "5.10.0",
     "prettier": "^3.2.5"
   },
   "devDependencies": {
