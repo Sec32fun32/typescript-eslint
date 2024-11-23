@@ -56,7 +56,7 @@
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "7.16.1",
-    "@typescript-eslint/parser": "7.16.1",
+    "@typescript-eslint/parser": "0.1.0",
     "@typescript-eslint/utils": "7.16.1"
   },
   "devDependencies": {
